@@ -37,21 +37,6 @@ Note: AI vulnerabilities are not "patched" like traditional software. Vendors ty
 
 ---
 
-## Data sources
-
-| Source | Trust level |
-|---|---|
-| AI Incident Database (AIID) | Verified |
-| MITRE ATLAS | Verified |
-| arXiv research papers | Verified |
-| GitHub repositories | Community |
-| Reddit, social media | Unverified - reviewed before publication |
-| Direct submissions | Unverified - reviewed before publication |
-
-Community and social reports go through AI pre-screening and manual admin review before appearing publicly.
-
----
-
 ## Models tracked
 
 The database currently covers 40+ AI models including:
