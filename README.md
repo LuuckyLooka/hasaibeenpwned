@@ -1,4 +1,4 @@
-# HasAIbeenPwned 🔴
+# HasAIbeenPwned
 
 > Has your AI model been compromised?
 
