@@ -1,6 +1,6 @@
 # HasAIbeenPwned
 
-**[hasaibeenpwned.com](https://hasaibeenpwned.com)** — A community-maintained database tracking jailbreaks, prompt injections, and security vulnerabilities across AI language models.
+**[hasaibeenpwned.com](https://hasaibeenpwned.com)** - A community-maintained database tracking jailbreaks, prompt injections, and security vulnerabilities across AI language models.
 
 ---
 
@@ -46,13 +46,13 @@ All community-sourced incidents go through AI pre-screening followed by manual r
 
 Each incident is rated across three dimensions, inspired by Metasploit module scoring:
 
-**Severity** — `Critical` · `High` · `Medium` · `Low`
+**Severity** - `Critical` · `High` · `Medium` · `Low`
 
-**Ease of Use** — `Trivial` · `Easy` · `Moderate` · `Complex` · `Expert`
+**Ease of Use** - `Trivial` · `Easy` · `Moderate` · `Complex` · `Expert`
 
-**Effectiveness** — `Excellent` · `Great` · `Good` · `Normal` · `Low`
+**Effectiveness** - `Excellent` · `Great` · `Good` · `Normal` · `Low`
 
-> Note: AI vulnerabilities are not "patched" like traditional software. Vendors typically release new model versions or add runtime classifiers — original model weights are rarely modified in-place. Open-source models (Llama, Mistral, DeepSeek) cannot be fully mitigated once weights are publicly released.
+> Note: AI vulnerabilities are not "patched" like traditional software. Vendors typically release new model versions or add runtime classifiers - original model weights are rarely modified in-place. Open-source models (Llama, Mistral, DeepSeek) cannot be fully mitigated once weights are publicly released.
 
 ---
 
@@ -97,9 +97,9 @@ Browse the full Attack Techniques catalog at [hasaibeenpwned.com/attacks](https:
 
 ## Incidents vs Techniques
 
-**Incident** — a documented event. Something that happened, with a date, a source, and a specific affected model.
+**Incident** - a documented event. Something that happened, with a date, a source, and a specific affected model.
 
-**Technique** — a reusable attack method. How a class of attack works, with example prompts and defense recommendations. One technique can be linked to many incidents.
+**Technique** - a reusable attack method. How a class of attack works, with example prompts and defense recommendations. One technique can be linked to many incidents.
 
 ---
 
@@ -109,20 +109,20 @@ Found a vulnerability not in the database? Submit it at **[hasaibeenpwned.com/su
 
 All submissions are manually reviewed before publication.
 
-For critical vulnerabilities with no known mitigations — please notify the vendor first. We support coordinated disclosure and can delay publication on request. See [SECURITY.md](SECURITY.md).
+For critical vulnerabilities with no known mitigations - please notify the vendor first. We support coordinated disclosure and can delay publication on request. See [SECURITY.md](SECURITY.md).
 
 ---
 
 ## FAQ
 
 **What does "pwned" mean for a model?**
-At least one confirmed, publicly documented security incident exists for that model. It does not mean the model is currently exploitable — check the mitigation status on each incident.
+At least one confirmed, publicly documented security incident exists for that model. It does not mean the model is currently exploitable - check the mitigation status on each incident.
 
 **Is this a list of things to do to AI models?**
 No. This is a defensive resource. Understanding how attacks work is necessary for building safer AI systems and making informed deployment decisions.
 
 **How is this different from AI safety research?**
-AI safety research focuses on long-term alignment risks. This database covers immediate, practical security issues — attacks that can be executed today against production AI deployments.
+AI safety research focuses on long-term alignment risks. This database covers immediate, practical security issues - attacks that can be executed today against production AI deployments.
 
 **What is the difference between an Incident and a Technique?**
 An Incident is a documented event with a date, source, and affected model. A Technique is a reusable attack method that may be linked to many incidents.
